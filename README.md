@@ -15,17 +15,41 @@ This project started with the frontend UI from [CodeWithHarry's Sigma Web Develo
 
 ## ✨ Features
 
+### 🎧 Core Features
 - 🎨 Clean, modern Spotify-inspired UI
 - 🎵 Music player controls (play, pause, next, previous)
 - 📱 Responsive design for mobile and desktop
-- 🎧 Custom playlist management
 - ⏱️ Real-time progress tracking
+- 🔊 Volume control
+
+### ⭐ Favorites System (Coming Soon)
+A dedicated favorites/liked songs feature that allows users to:
+- ❤️ **Like/Unlike songs** - Heart icon on each track
+- 📋 **Favorites playlist** - Dedicated section showing all liked songs
+- 💾 **Persistent storage** - Favorites saved using localStorage
+- 🔢 **Count display** - Shows total number of favorite songs
+- 🎯 **Quick access** - Toggle between all songs and favorites view
+
+**Technical Implementation:**
+```javascript
+// Features to be implemented:
+- localStorage API for data persistence
+- Dynamic DOM manipulation for favorites list
+- Event listeners for like/unlike actions
+- Filter functionality to show/hide favorites
+```
+
+### 🎼 Playlist Management
+- Custom playlist creation
+- Add/remove songs from playlists
+- Playlist organization and sorting
 
 ## 🛠️ Technologies Used
 
 - **HTML5** - Structure and semantics
 - **CSS3** - Styling and animations
-- **JavaScript** - Interactive functionality
+- **JavaScript (ES6+)** - Interactive functionality
+- **localStorage API** - Client-side data persistence
 - **Git & GitHub** - Version control
 - **Netlify** - Deployment *(coming soon)*
 
@@ -54,22 +78,52 @@ cd spotify-clone-extended
 
 ```
 spotify-clone-extended/
-├── css/          # Stylesheets
-├── js/           # JavaScript files
-├── songs/        # Audio files
-├── img/          # Images and icons
-├── index.html    # Main HTML file
-└── README.md     # Project documentation
+├── css/
+│   └── style.css      # Main styles + favorites UI
+├── js/
+│   ├── script.js      # Core player functionality
+│   └── favorites.js   # Favorites system (coming soon)
+├── songs/             # Audio files
+├── img/               # Images and icons
+├── index.html         # Main HTML file
+└── README.md          # Project documentation
 ```
 
-## 🎯 Future Enhancements
+## 🎯 Roadmap
 
-- [ ] Add backend with Node.js/Express
-- [ ] Implement user authentication
-- [ ] Create playlists with database storage
-- [ ] Add search functionality
-- [ ] Integrate with Spotify API for real music streaming
-- [ ] Add favorites/liked songs feature
+### Phase 1: Frontend Enhancement ✅
+- [x] Base UI implementation
+- [x] Music player controls
+- [ ] Favorites system
+
+### Phase 2: Advanced Features 🚧
+- [ ] Search functionality
+- [ ] Dark mode toggle
+- [ ] Keyboard shortcuts
+- [ ] Recently played section
+
+### Phase 3: Backend Integration 📋
+- [ ] User authentication
+- [ ] Database for playlists
+- [ ] API integration
+- [ ] Cloud music storage
+
+## 💻 Code Highlights
+
+### Favorites Feature Architecture
+```javascript
+// Data structure for favorites
+const favorites = {
+  songs: [],
+  add: function(songId) { /* ... */ },
+  remove: function(songId) { /* ... */ },
+  toggle: function(songId) { /* ... */ },
+  getAll: function() { /* ... */ }
+}
+
+// localStorage integration
+localStorage.setItem('favoriteSongs', JSON.stringify(favorites.songs))
+```
 
 ## 📸 Screenshots
 
@@ -99,3 +153,7 @@ This project is open source and available for educational purposes.
 ---
 
 ⭐ If you found this project helpful, please consider giving it a star!
+
+## 📊 Project Status
+
+🟢 **Active Development** - Curre
