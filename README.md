@@ -64,7 +64,7 @@ A dedicated favorites/liked songs feature that allows users to:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/spotify-clone-extended.git
+git clone https://github.com/saara-sana/spotify-clone-extended.git
 ```
 
 2. Open the project folder:
@@ -147,8 +147,8 @@ This project is open source and available for educational purposes.
 
 **Saara Kauser Shaik**
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](#) *(optional)*
+- GitHub: [@saara-sana](https://github.com/saara-sana)
+- LinkedIn: [Your LinkedIn](#https://www.linkedin.com/in/saara-kauser-shaik-21b6b7355/) *(optional)*
 
 ---
 
