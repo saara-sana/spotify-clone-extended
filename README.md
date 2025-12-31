@@ -1,7 +1,7 @@
 # spotify-clone-extended
 # 🎵 Spotify Clone (Extended)
 
-A modern music streaming web application inspired by Spotify's interface, built with HTML, CSS, and JavaScript.
+A modern music streaming web application inspired by Spotify's interface, built with HTML, CSS, and JavaScript, Express.JS and Node.JS
 
 ## 📌 About This Project
 
