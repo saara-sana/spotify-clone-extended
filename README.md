@@ -105,7 +105,7 @@ spotify-clone-extended/
 ### Phase 3: Backend Integration 📋
 - [ ] User authentication
 - [ ] Database for playlists
-- [ ] API integration
+- [x] API integration
 - [ ] Cloud music storage
 
 ## 💻 Code Highlights
