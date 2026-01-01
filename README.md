@@ -125,14 +125,6 @@ const favorites = {
 localStorage.setItem('favoriteSongs', JSON.stringify(favorites.songs))
 ```
 
-## 📸 Screenshots
-
-*(Add screenshots of your project here)*
-
-## 🌐 Live Demo
-
-🔗 [View Live Demo](#) *(Add your Netlify link here once deployed)*
-
 ## 🙏 Acknowledgments
 
 - UI base adapted from [CodeWithHarry's Sigma Web Development Course](https://github.com/CodeWithHarry/Sigma-Web-Dev-Course) (public repository)
